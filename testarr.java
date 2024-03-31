@@ -35,15 +35,16 @@
 // }
 // -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
 // New 
-// copyOf --> it is used to copy value of one array to another array
+// .copyOf --> ye dusree array kii value apne array ke ander sore krta hain, and it takes two parameters jis array ki value copy krni hain and length for new array, hmne yaha pe previous array ka length liya hain.
 //
-import java.util.*;
+// import java.util.*;
 
-public class testarr{
-    public static void main(String args[]){
-        Scanner sc = new Scanner(System.in);
-        int curarr[] = {98,54,84,82,92};
-        int cpyarr[] = java.util.Arrays.copyOf(curarr,curarr.length);
-        System.out.println(java.util.Arrays.toString(cpyarr));
-    }
-}
+// public class testarr{
+//     public static void main(String args[]){
+//         Scanner sc = new Scanner(System.in);
+//         int curarr[] = {98,54,84,82,92};
+//         int cpyarr[] = java.util.Arrays.copyOf(curarr,curarr.length);
+//         System.out.println(java.util.Arrays.toString(cpyarr));
+//     }
+// }
+// -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
